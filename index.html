@@ -12,67 +12,80 @@
     <link rel = "stylesheet" type = "text/css" href = "assets/css/reset.css">
     <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
 
-    <title>Jay's Portfolio</title>
+    <title>About Me!</title>
 
 </head>
 
 <body>
 
-<header class = "nav">
-    <h1>Jay (Jaybird) Jernigan</h1>
-    <ul id = "nav">
-        <li><a href = "index.html">About</a></li>
-        <li><a href = "contact.html">Contact</a></li>
-        <li><a href = "portfolio.html">Portfolio</a></li>
-    </ul>
-</header>
 
+    <!- header contains name and navigation links ->
+    <header class = "nav-header">
+
+        <!- contains name for main header ->
+        <h1 class = "nav-name">Jay (Jaybird) Jernigan</h1>
+
+        <!- contains links for navigation->
+        <ul class   = "nav-link">
+
+            <li><a href = "index.html">About</a></li>
+            <li><a href = "contact.html">Contact</a></li>
+            <li><a href = "portfolio.html">Portfolio</a></li>
+
+        </ul>
+
+    </header>
+    <!-contains main content header, picture, and content ->
     <section class = "content">
 
         <section class = "about-content">
 
-            <header class = "1-about-head">
-                About Me
-            </header>
+            <section class = "content-head">
+                <p>About Me</p>
+            </section>
 
-            <section class = "2-about-content">
-                <img src = "assets/images/195873_1238575160545_4261590_n.jpg" alt = "picture of jay">
+            <section class = "main-content">
+                <img class = "content-img" src = "assets/images/195873_1238575160545_4261590_n.jpg" alt = "picture of jay">
                 <p>Hello, my name is James Jernigan. Feel free to call me Jay or Jaybird. I began my journey into web development with the Georgia Tech
                 Full Stack Web Development coding boot camp. This is an exciting and worthwhile experience that has changed me for the better.
                 I have a background in sales and front-facing customer service. The boot camp just adds another facet to my  skill set. </p>
+                <br>
+                <p>At my last job I had extensive experience using a CRM. It made everything so much easier!
+                I don't know how any sales job can do without it. I reminds you about tasks, calls, emails. It's great! You will never
+                lose a customer because you forgot to call them back again.</p>
             </section>
         </section>
 
-        <section class = "01-connect">
+        <section class = "connect-body">
 
-            <header class = "02-connect-head">
-                Connect With Me
+            <header class = "connect-head">
+                <p>Connect With Me</p>
             </header>
 
-            <ul class="03-connect-list">
+            <ul class="connect-list">
                 <li>
                     <a href ="https://github.com/Livingnight" target = "_blank">
-                        <img src = "assets/images/github.png">
+                        <img class = "img-link" src = "assets/images/github.png">
                     </a>
                 </li>
                 <li>
                     <a href = "https://www.linkedin.com/in/jay-jernigan-3175a2a1" target = "_blank">
-                        <img src = "assets/images/linkedin.png">
+                        <img class = "img-link" src = "assets/images/linkedin.png">
                     </a>
                 </li>
                 <li>
                     <a href = "https://stackoverflow.com/users/9140944/livingnight" target = "_blank">
-                        <img src = "assets/images/stack-overflow.png">
+                        <img class = "img-link" src = "assets/images/stack-overflow.png">
                     </a>
                 </li>
             </ul>
 
         </section>
-
-        <footer>
+    </section>
+         <footer>
             &copy; Copyright 2018 Jay Jernigan
          </footer>
-    </section>
+
 
 
 
