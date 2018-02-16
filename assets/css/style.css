@@ -19,6 +19,45 @@ header{
 a{
     text-decoration: none;
 }
+a:visited{
+    color: #777777;
+}
+a:hover{
+    color: crimson;
+}
+div {
+    width: 275px;
+    height: 125px;
+    position: relative;
+    margin: 15px 25px 15px 10px;
+}
+.img1{
+    float:left;
+    background-image: url("../images/01-abstract-q-c-300-125-6.jpg");
+}
+.img2{
+    float: right;
+    background-image: url("../images/02-abstract-q-c-300-125-7.jpg");
+}
+.img3{
+    float: left;
+    background-image: url("../images/03-abstract-q-c-300-125-10.jpg");
+}
+.img4{
+    float: right;
+    background-image: url("../images/04-abstract-q-c-100-100-1.jpg");
+}
+.img5{
+    float: left;
+    background-image: url("../images/05-technics-q-c-300-125-2.jpg");
+}
+.img6{
+    float: right;
+    background-image: url("../images/06-technics-q-c-300-125-4.jpg");
+}
+textarea {
+    width: 620px;
+}
 .content {
     clear: both;
     margin: 15px auto 0 auto;
@@ -38,7 +77,7 @@ a{
 }
 .nav-header p{
     position: absolute;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #cccccc;
 }
 .nav-name{
     position: absolute;
@@ -63,9 +102,10 @@ a{
     padding-right: 5px;
     margin-left: 5px;
     border-right: 1px solid #cccccc;
-
 }
-
+.nav-link li:first-child{
+    border: none;
+}
 .main-content {
     float: left;
     overflow: auto;
@@ -87,13 +127,19 @@ a{
 }
 .content-head p {
     border-bottom: 1px solid #cccccc;
-    width: 95%;
+    width: 620px;
     padding-bottom: 10px;
     color: #4aaaa5;
     margin-left: 15px;
     font-size: 24px;
 }
-
+.input{
+    width: 620px;
+}
+.submit{
+    background: #4aaaa5;
+    color: #ffffff;
+}
 .connect-body {
     float: right;
     width: 270px;
@@ -131,8 +177,68 @@ a{
     height:60px;
     width: 60px;
 }
+#p1 {
+    background-color: #4aaaa5;
+    width: 100%;
+    position: absolute;
+    bottom: 7px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 15px 0 0;
+    color: #ffffff;
+}
+#p2  {
+    background-color: #4aaaa5;
+    width: 100%;
+    position: absolute;
+    bottom: 7px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 15px 0 0;
+    color: #ffffff;
+}
+#p3 {
+    background-color: #4aaaa5;
+    width: 100%;
+    position: absolute;
+    bottom: 7px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 15px 0 0;
+    color: #ffffff;
+}
+#p4 {
+    background-color: #4aaaa5;
+    width: 100%;
+    position: absolute;
+    bottom: 7px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 15px 0 0;
+    color: #ffffff;
+}
+#p5 {
+    background-color: #4aaaa5;
+    width: 100%;
+    position: absolute;
+    bottom: 7px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 15px 0 0;
+    color: #ffffff;
+}
+#p6 {
+    background-color: #4aaaa5;
+    width: 100%;
+    position: absolute;
+    bottom: 7px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 15px 0 0;
+    color: #ffffff;
+}
 footer{
-    border-top: 3px solid #4aaaa5;
+    border-top: 5px solid #4aaaa5;
     clear: both;
     position: absolute;
     width: 100%;
