@@ -17,70 +17,73 @@
 
 <body>
 
-    <!- header contains name and navigation links ->
-    <header class = "nav-header">
 
-        <!- contains name ->
+<!- header contains name and navigation links ->
+<header class = "nav-header">
 
-        <h1 class = "nav-name">
-            Jay (Jaybird) Jernigan
-        </h1>
+    <!- contains name for main header ->
+    <h1 class = "nav-name">Jay (Jaybird) Jernigan</h1>
 
-        <!- contains links ->
+    <!- contains links for navigation->
+    <ul class   = "nav-link">
 
-        <ul class   = "nav-link">
+        <li><a href = "index.html">About</a></li>
+        <li><a href = "contact.html">Contact</a></li>
+        <li><a href = "portfolio.html">Portfolio</a></li>
 
-            <li id = "nav-link"><a href = "index.html">About</a></li>
-            <li id = "nav-link"><a href = "contact.html">Contact</a></li>
-            <li id = "nav-link"><a href = "portfolio.html">Portfolio</a></li>
+    </ul>
 
-        </ul>
+</header>
+<!-contains main content header, picture, and content ->
+<section class = "content">
 
-    </header>
+    <section class = "about-content">
 
-    <section class = "content">
-
-        <section class = "contact-content">
-
-            <header class = "content-head">
-            Contact
-            </header>
-
-            <section class = "2-contact-content">
-
-
-            </section>
+        <section class = "content-head">
+            <p>Contact</p>
         </section>
 
-        <section class = "connect-body">
-
-            <header class = "connect-head">
-                Connect With Me
-            </header>
-
-            <ul class="connect-list">
-                <li>
-                    <a href ="https://github.com/Livingnight" target = "_blank">
-                        <img src = "assets/images/github.png">
-                    </a>
-                </li>
-                <li>
-                    <a href = "https://www.linkedin.com/in/jay-jernigan-3175a2a1" target = "_blank">
-                        <img src = "assets/images/linkedin.png">
-                    </a>
-                </li>
-                <li>
-                    <a href = "https://stackoverflow.com/users/9140944/livingnight" target = "_blank">
-                        <img src = "assets/images/stack-overflow.png">
-                    </a>
-                </li>
-            </ul>
-
+        <section class = "main-content">
+            <img class = "content-img" src = "assets/images/195873_1238575160545_4261590_n.jpg" alt = "picture of jay">
+            <p>Hello, my name is James Jernigan. Feel free to call me Jay or Jaybird. I began my journey into web development with the Georgia Tech
+                Full Stack Web Development coding boot camp. This is an exciting and worthwhile experience that has changed me for the better.
+                I have a background in sales and front-facing customer service. The boot camp just adds another facet to my  skill set. </p>
+            <br>
+            <p>At my last job I had extensive experience using a CRM. It made everything so much easier!
+                I don't know how any sales job can do without it. I reminds you about tasks, calls, emails. It's great! You will never
+                lose a customer because you forgot to call them back again.</p>
         </section>
     </section>
 
-    <footer>
-        &copy; Copyright 2018 Jay Jernigan
-    </footer>
+    <section class = "connect-body">
+
+        <header class = "connect-head">
+            <p>Connect With Me</p>
+        </header>
+
+        <ul class="connect-list">
+            <li>
+                <a href ="https://github.com/Livingnight" target = "_blank">
+                    <img class = "img-link" src = "assets/images/github.png">
+                </a>
+            </li>
+            <li>
+                <a href = "https://www.linkedin.com/in/jay-jernigan-3175a2a1" target = "_blank">
+                    <img class = "img-link" src = "assets/images/linkedin.png">
+                </a>
+            </li>
+            <li>
+                <a href = "https://stackoverflow.com/users/9140944/livingnight" target = "_blank">
+                    <img class = "img-link" src = "assets/images/stack-overflow.png">
+                </a>
+            </li>
+        </ul>
+
+    </section>
+</section>
+<footer>
+    &copy; Copyright 2018 Jay Jernigan
+</footer>
+
 </body>
 </html>

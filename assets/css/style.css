@@ -16,6 +16,9 @@ body{
 header{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+a{
+    text-decoration: none;
+}
 .content {
     clear: both;
     margin: 15px auto 0 auto;
@@ -35,7 +38,6 @@ header{
 }
 .nav-header p{
     position: absolute;
-    left: 10px;
     border-bottom: 1px solid;
 }
 .nav-name{
@@ -84,10 +86,12 @@ header{
     background: #ffffff;
 }
 .content-head p {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #cccccc;
     width: 95%;
     padding-bottom: 10px;
+    color: #4aaaa5;
     margin-left: 15px;
+    font-size: 24px;
 }
 
 .connect-body {
@@ -107,8 +111,10 @@ header{
     margin-bottom: 15px;
 }
 .connect-head p{
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #cccccc;
     padding: 10px;
+    font-size: 24px;
+    color: #4aaaa5;
 }
 .connect-list li {
     display: inline;
