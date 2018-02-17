@@ -8,13 +8,14 @@ html {
 body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    border-color: #dddddd;
     height: 150vh;
     background-image: url('../images/intersection.png');
     position: relative;
-    border-color: #cccccc;
 }
 header{
     font-family: 'Georgia', Times, Times New Roman, serif;
+    border-color: #cccccc;
 }
 a{
     text-decoration: none;
@@ -68,7 +69,7 @@ textarea {
 
     height: 100px;
     background: #ffffff;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
     position: relative;
 }
 .about-content{
@@ -77,7 +78,7 @@ textarea {
 }
 .nav-header p{
     position: absolute;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #dddddd;
 }
 .nav-name{
     position: absolute;
@@ -90,9 +91,8 @@ textarea {
     left: 150px;
 }
 .nav-link{
-    /*list-style: none;*/
     position: absolute;
-    right: 25%;
+    right: 235px;
     bottom: 50%;
 }
 .nav-link li{
@@ -126,7 +126,7 @@ textarea {
     background: #ffffff;
 }
 .content-head p {
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #dddddd;
     width: 620px;
     padding-bottom: 10px;
     color: #4aaaa5;
@@ -157,7 +157,7 @@ textarea {
     margin-bottom: 15px;
 }
 .connect-head p{
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #dddddd;
     padding: 10px;
     font-size: 24px;
     color: #4aaaa5;
