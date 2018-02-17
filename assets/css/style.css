@@ -93,7 +93,7 @@ textarea {
 .nav-link{
     position: absolute;
     right: 235px;
-    bottom: 50%;
+    bottom: 40%;
 }
 .nav-link li{
     float: right;
